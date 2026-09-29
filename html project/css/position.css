@@ -1,0 +1,26 @@
+.card{
+    width: 350px;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 2px solid black;
+    position: relative;
+}
+.badge-card{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+
+}
+.c{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: aqua;
+    width: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 2px;
+}
+.head{
+    text-align: center;
+}
