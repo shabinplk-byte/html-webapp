@@ -1,0 +1,32 @@
+:root{--primary-color:blue;--text-color:rgb(50, 49, 49);
+
+}
+.navbar{
+    padding: 20px;
+    border-bottom: 1px solid black ;
+}
+.logo{
+    color:var(--primary-color)
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.menu a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+.menu a:hover{
+    color:var(--primary-color);
+
+}
+.menu a:focus{
+    outline: 2px solid var(--primary-color) ;
+}    
+    .menu li:first-child a{
+        font-weight:bold;
+}
+.menu li:last-child a{
+    color: red;
+}

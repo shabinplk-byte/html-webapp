@@ -1,0 +1,40 @@
+:root{
+    --primary-color:blue;--secondary-color:rgb(43, 41, 41);
+}
+.main .navbar:nth-child(even){
+    background-color: gray;
+}
+.navbar{
+    padding:20px ;
+    border: 2px solid rgb(149, 145, 145);
+    border-radius:10px ;
+
+}
+.button1:hover{
+    color: var(--primary-color);
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.button2:hover{
+    color: var(--primary-color);
+    background-color: black;
+      cursor: pointer;
+
+    
+}
+.button3:hover{
+    color: var(--primary-color);
+    background-color: black;
+      cursor: pointer;
+
+}
+.navbar h2:after{
+    content:"" ;
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: blue;
+    margin-top: 3px;
+}
