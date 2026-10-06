@@ -1,0 +1,15 @@
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius:100px;
+    background: rgb(158, 158, 42);
+    animation: moving-circle 2s infinite alternate;
+}
+@keyframes moving-circle{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(300px) ;
+    }
+}

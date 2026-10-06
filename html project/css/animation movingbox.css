@@ -1,0 +1,14 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    animation: moving-box 2s infinite alternate;
+}
+@keyframes moving-box{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(300px);
+    }
+}
